@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Sree Balaji High School</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:#003366;
+    color:white;
+}
+
+.top-bar{
+    background:#002244;
+    text-align:center;
+    padding:10px;
+}
+
+.logo-section{
+    background:white;
+    display:flex;
+    align-items:center;
+    padding:15px;
+}
+
+.logo-section img{
+    width:90px;
+    margin-right:20px;
+}
+
+.logo-section h1{
+    color:#003366;
+}
+
+.logo-section p{
+    color:#666;
+}
+
+nav{
+    background:#003366;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    padding:15px 20px;
+    display:block;
+}
+
+nav ul li a:hover{
+    background:#ff9900;
+}
+
+.banner{
+    background:linear-gradient(rgba(0,51,102,0.8),rgba(0,51,102,0.8)),
+    url('images/contact-banner.jpg');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.banner h1{
+    font-size:42px;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+}
+
+.contact-box{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:30px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    color:#003366;
+    margin-bottom:15px;
+    border-left:5px solid #ff9900;
+    padding-left:10px;
+}
+
+.card p{
+    line-height:1.8;
+    color:#444;
+}
+
+form input,
+form textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+form button{
+    background:#003366;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+form button:hover{
+    background:#ff9900;
+}
+
+.map{
+    margin-top:30px;
+}
+
+iframe{
+    width:100%;
+    height:350px;
+    border:none;
+    border-radius:10px;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+
+.contact-box{
+    grid-template-columns:1fr;
+}
+
+.logo-section{
+    flex-direction:column;
+    text-align:center;
+}
+
+.banner h1{
+    font-size:30px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+header>
+
+<div class="top-bar">
+📞 8500522544 | 9603466616
+</div>
+
+<div class="logo-section">
+<img src="images/sreebalajilogo.jpg" alt="School Logo">
+
+<div class="school-title">
+<h1>SREE BALAJI HIGH SCHOOL</h1>
+<p>Mahabubnagar | Established 1993</p>
+</div>
+</div>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="aboutus.html">About Us</a></li>
+<li class="dropdown">
+    <a href="#">Academics ▼</a>
+    <ul class="dropdown-menu">
+        <li><a href="admission-details.html">Admission Details</a></li>
+        <li><a href="fee-structure.html">Fee Structure</a></li>
+        <li><a href="result-analysis.html">Result Analysis</a></li>
+        <li><a href="student-achievers.html">Student Achievers</a></li>
+        <li><a href="teacher-achievers.html">Teacher Achievers</a></li>
+    </ul>
+
+<li class="dropdown">
+    <a href="#">Administration ▼</a>
+
+    <ul class="dropdown-menu">
+        <li><a href="staff-details.html">Staff Details</a></li>
+        <li><a href="teacher-vacancy.html">Teacher Vacancy</a></li>
+        <li><a href="school-plan.html">School Plan</a></li>
+        <li><a href="monthly-remuneration.html">Monthly Remuneration / Salary of Staff</a></li>
+        <li><a href="works.html">Works</a></li>
+    </ul>
+</li>
+
+<li class="dropdown">
+    <a href="#">Enrolment Statistics ▼</a>
+    <ul class="dropdown-menu">
+        <li><a href="class-wise-enrolment.html">Class & Social Category wise Enrolment Position</a></li>
+        <li><a href="admission-wise-enrolment.html">Admission Category wise Enrolment Position</a></li>
+	<li><a href="tc-issued.html">TC Issued</a></li>
+    </ul>
+</li>
+
+<li><a href="facilities.html">Facilities</a></li>
+<li class="dropdown">
+    <a href="#">Gallery ▼</a>
+
+    <ul class="dropdown-menu">
+        <li><a href="photo-gallery.html">Photo Gallery</a></li>
+        <li><a href="video-gallery.html">Video Gallery</a></li>
+    </ul>
+</li>
+<li><a href="transport.html">Transport</a></li>
+<li><a href="contactus.html">Contact Us</a></li>
+</ul>
+</nav>
+
+</header>
+
+
+<section class="banner">
+<h1>Contact Us</h1>
+<p>Get in Touch With Us</p>
+</section>
+
+<div class="container">
+
+<div class="contact-box">
+
+<div class="card">
+
+<h2>School Contact Details</h2>
+
+<p>
+<strong>Sree Balaji High School</strong><br><br>
+
+📍 Near Bypass Road, Veerannapet,<br>
+Mahabubnagar, Telangana - 509001<br><br>
+
+📞 Mobile: 8500522544<br>
+📞 Alternate: 9603466616<br><br>
+
+✉ Email: sreebalajihighschool@gmail.com<br><br>
+
+🕘 School Timings:<br>
+Monday - Saturday<br>
+08:30 AM to 04:00 PM
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Send Us a Message</h2>
+
+<form id="contactForm">
+
+<input type="text" id="name" placeholder="Your Name" required>
+
+<input type="email" id="email" placeholder="Your Email" required>
+
+<input type="tel" id="mobile" placeholder="Mobile Number" required>
+
+<textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+
+<button type="button" onclick="sendWhatsApp()">Submit</button>
+
+</form>
+
+<script>
+function sendWhatsApp(){
+
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var mobile = document.getElementById("mobile").value;
+    var message = document.getElementById("message").value;
+
+    var phone = "919603466616"; // r WhatsApp Number
+
+    var text =
+    "📌 New Enquiry from School Website%0A%0A" +
+    "👤 Name: " + name + "%0A" +
+    "📧 Email: " + email + "%0A" +
+    "📱 Mobile: " + mobile + "%0A" +
+    "📝 Message: " + message;
+
+    window.open(
+        "https://wa.me/" + phone + "?text=" + text,
+        "_blank"
+    );
+}
+</script>
+</div>
+
+</div>
+
+<div class="map">
+
+<div class="card">
+
+<h2>School Location</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Mahabubnagar&output=embed">
+</iframe>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<h3>Sree Balaji High School</h3>
+
+<p>
+Near Bypass Road, Veerannapet,<br>
+Mahabubnagar, Telangana
+</p>
+
+<br>
+
+<p>📞 8500522544 | 9603466616</p>
+
+<p>© 2026 Sree Balaji High School. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
+
+<style>
+/* Dropdown Menu */
+
+.dropdown{
+    position:relative;
+}
+
+.dropdown-menu{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#003366;
+    min-width:220px;
+    list-style:none;
+    z-index:999;
+}
+
+.dropdown-menu li{
+    width:100%;
+}
+
+.dropdown-menu li a{
+    padding:12px 15px;
+    display:block;
+    color:white;
+    text-decoration:none;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.dropdown-menu li a:hover{
+    background:#ff9900;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block;
+}
+</style>
